@@ -52,4 +52,105 @@ header nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-.hero
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.hero .button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero .button:hover {
+    background-color: #2980b9;
+}
+
+.about, .skills, .contact {
+    padding: 60px 0;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills-list .skill {
+    width: 45%;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact form button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact form button:hover {
+    background-color: #2980b9;
+}
+
+/* Footer */
+footer {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Clients Section */
+.clients .client-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.client-card {
+    background-color: #fff;
+    padding: 20px;
+    width: 30%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.client-card img {
+    max-width: 100px;
+    margin-bottom: 15px;
+}
+
+.client-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .skills-list {
+        flex-direction: column;
+    }
+
+    .client-card {
+        width: 100%;
+    }
+}
