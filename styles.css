@@ -37,21 +37,28 @@ section {
     text-align: center;
 }
 
+.resume-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
 #portfolio .portfolio-items {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
-.portfolio-items .item {
-    margin: 10px;
-    border: 1px solid #ddd;
-    padding: 10px;
+.client-item {
     width: 30%;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
 }
 
-.portfolio-items .item img {
-    max-width: 100%;
+.client-item img {
+    max-width: 100px;
     height: auto;
 }
 
